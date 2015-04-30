@@ -11,6 +11,31 @@ body {
   /*font: 1.3rem/1.61538 "Montserrat", sans-serif; */
 }
 
+.img-right{
+/*  position: absolute;
+  right: 0;
+  top: 0;*/
+  float: right;
+  border: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: 1px 1px 10px #ccc;
+}
+
+.img-left{
+ /* position: absolute;
+  left:0;
+  top:0;*/
+  float: left;
+  border: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: -1px 1px 10px #ccc;
+}
+
+.edit-img{
+
+}
+/*
+.edits-holder{
+  height: 200px; 
+}*/
 
 .full{
   width: 100%;
