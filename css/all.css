@@ -29,10 +29,57 @@ body {
   box-shadow: -1px 1px 10px #ccc;
 }
 
+.center-text{
+  text-align: center;
+}
 .edit-holder{
   padding: 0 30px;
   text-align: center;
 }
+
+.success-story{
+  margin: 30px 0;
+}
+
+.success-story>p{
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 20px;
+}
+.success-img{
+  margin-bottom: 20px;
+}
+
+.success-img .img-holder{
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.success-img .img-holder img{
+  border-radius: 50%;
+}
+
+.success-img .text-holder{
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.success-img .text-holder h3{
+  margin: 0;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  color: #635C73;
+}
+
+.success-img .text-holder h4{
+  margin: 0 0 12px;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: bold;
+}
+
 .edit-box{
   text-align: justify;
   background-color: white;

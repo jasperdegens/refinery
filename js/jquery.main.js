@@ -6,6 +6,25 @@ jQuery(function() {
 	menu.init();
 	// scroller
 	scroller.init();
+
+	var headerHeight = 104;
+
+	// smooth scrolling to links
+	$('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) {
+
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html,body').animate({
+                 scrollTop: target.offset().top - headerHeight
+            }, 1000);
+            return false;
+        }
+    }
+});
+
 });
 
 // cycle scroll gallery init
