@@ -11,6 +11,14 @@ body {
   /*font: 1.3rem/1.61538 "Montserrat", sans-serif; */
 }
 
+.top-section{
+  padding-top: 104px !important;
+}
+
+textarea{
+  width: 100%;
+}
+
 .img-right{
 /*  position: absolute;
   right: 0;
